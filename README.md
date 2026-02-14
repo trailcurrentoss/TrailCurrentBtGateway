@@ -23,13 +23,13 @@ Bluetooth Low Energy (BLE) gateway module that receives commands via Bluetooth a
 
 ### KiCAD Library Dependencies
 
-This project uses the consolidated [TrailCurrentKiCADLibraries](https://codeberg.org/trailcurrentopensource/TrailCurrentKiCADLibraries).
+This project uses the consolidated [TrailCurrentKiCADLibraries](https://github.com/trailcurrentoss/TrailCurrentKiCADLibraries).
 
 **Setup:**
 
 ```bash
 # Clone the library
-git clone https://codeberg.org/trailcurrentopensource/TrailCurrentKiCADLibraries.git
+git clone git@github.com:trailcurrentoss/TrailCurrentKiCADLibraries.git
 
 # Set environment variables (add to ~/.bashrc or ~/.zshrc)
 export TRAILCURRENT_SYMBOL_DIR="/path/to/TrailCurrentKiCADLibraries/symbols"
@@ -37,7 +37,7 @@ export TRAILCURRENT_FOOTPRINT_DIR="/path/to/TrailCurrentKiCADLibraries/footprint
 export TRAILCURRENT_3DMODEL_DIR="/path/to/TrailCurrentKiCADLibraries/3d_models"
 ```
 
-See [KICAD_ENVIRONMENT_SETUP.md](https://codeberg.org/trailcurrentopensource/TrailCurrentKiCADLibraries/blob/main/KICAD_ENVIRONMENT_SETUP.md) in the library repository for detailed setup instructions.
+See [KICAD_ENVIRONMENT_SETUP.md](https://github.com/trailcurrentoss/TrailCurrentKiCADLibraries/blob/main/KICAD_ENVIRONMENT_SETUP.md) in the library repository for detailed setup instructions.
 
 ## Opening the Project
 
@@ -106,7 +106,7 @@ The gateway exposes a BLE service for device control and sensor data:
 - **PCB Files:** Ready for fabrication via standard PCB services (JLCPCB, OSH Park, etc.)
 - **BOM Generation:** Export BOM from KiCAD schematic (Tools > Generate BOM)
 - **Enclosure:** FreeCAD design included in `CAD/` directory
-- **JLCPCB Assembly:** See [BOM_ASSEMBLY_WORKFLOW.md](https://codeberg.org/trailcurrentopensource/TrailCurrentKiCADLibraries/blob/main/BOM_ASSEMBLY_WORKFLOW.md) for detailed assembly workflow
+- **JLCPCB Assembly:** See [BOM_ASSEMBLY_WORKFLOW.md](https://github.com/trailcurrentoss/TrailCurrentKiCADLibraries/blob/main/BOM_ASSEMBLY_WORKFLOW.md) for detailed assembly workflow
 
 ## Project Structure
 
@@ -140,5 +140,5 @@ Improvements and contributions are welcome! Please submit issues or pull request
 ## Support
 
 For questions about:
-- **KiCAD setup:** See [KICAD_ENVIRONMENT_SETUP.md](https://codeberg.org/trailcurrentopensource/TrailCurrentKiCADLibraries/blob/main/KICAD_ENVIRONMENT_SETUP.md)
-- **Assembly workflow:** See [BOM_ASSEMBLY_WORKFLOW.md](https://codeberg.org/trailcurrentopensource/TrailCurrentKiCADLibraries/blob/main/BOM_ASSEMBLY_WORKFLOW.md)
+- **KiCAD setup:** See [KICAD_ENVIRONMENT_SETUP.md](https://github.com/trailcurrentoss/TrailCurrentKiCADLibraries/blob/main/KICAD_ENVIRONMENT_SETUP.md)
+- **Assembly workflow:** See [BOM_ASSEMBLY_WORKFLOW.md](https://github.com/trailcurrentoss/TrailCurrentKiCADLibraries/blob/main/BOM_ASSEMBLY_WORKFLOW.md)
