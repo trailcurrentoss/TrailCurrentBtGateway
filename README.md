@@ -129,9 +129,9 @@ The gateway exposes a BLE service for device control and sensor data:
 
 ## License
 
-GNU General Public License v3.0 - See LICENSE file for details.
+MIT License - See LICENSE file for details.
 
-This is open source hardware. You are free to use, modify, and distribute these designs under the terms of the GPL-3.0 license.
+This is open source hardware. You are free to use, modify, and distribute these designs under the terms of the MIT license.
 
 ## Contributing
 
