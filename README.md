@@ -1,6 +1,6 @@
 # TrailCurrent Bluetooth Gateway
 
-Bluetooth Low Energy (BLE) gateway module that receives commands via Bluetooth and translates them into CAN bus messages for vehicle and trailer control.
+Bluetooth Low Energy (BLE) gateway module that receives commands via Bluetooth and translates them into CAN bus messages for vehicle and trailer control. Part of the [TrailCurrent](https://trailcurrent.com) open-source vehicle platform.
 
 ## Hardware Overview
 
